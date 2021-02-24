@@ -1,0 +1,52 @@
+.react-datepicker__header {
+    text-align: center;
+    background-color: var(--baseBackground);
+    border-bottom: 0px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding-top: 8px;
+    position: relative;
+  
+  }
+  .react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+    color:var(--baseColor);
+  }
+  
+
+
+.react-datepicker {
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-size: 0.8rem;
+    background-color: var(--cardGray);
+    color:var(--cardTitle);
+    border: 0px;
+    border-radius: 0;
+    display: inline-block;
+    position: relative;
+}
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+    color:var(--cardTitle);
+
+}
+.datepicker__day, .react-datepicker__time-name {
+    color:var(--cardTitle);
+
+}
+
+.react-datepicker__today-button {
+    background: var(--twitter);
+    
+    border-top: 0px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+    clear: left;
+  }
+
+  .react-datepicker__day--selected,
+    .react-datepicker__day--selected:hover{
+    background: var(--facebook);
+    color:var(--baseColor);
+
+}
